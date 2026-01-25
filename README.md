@@ -36,6 +36,6 @@ DevOps workflows such as automation, monitoring, CI/CD, cloud, and infrastructur
 
 ## 🧑‍💻 Author
 **Shivam Patel**
-Learning DevOps | Python | Cloud | Automation
+Learning DevOps | Python | AWS Cloud | Automation
 
 Happy Automating! 🚀
