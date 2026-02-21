@@ -12,7 +12,7 @@
 import boto3                                            #creatinga s3 bucket
 s3 = boto3.client("s3", region_name="ap-south-1")       #creating a client for s3
 
-bucket_name = "shivam-test-bucket-2026"  # unique name  globally
+bucket_name = "shivam-test-bucket-2026"                 # unique name  globally
 
 # Bucket create karna
 s3.create_bucket(                              #bucket creation method
@@ -25,4 +25,3 @@ print(f"Bucket '{bucket_name}' created successfully!")
 # Ab check karne ke liye list
 buckets = s3.list_buckets()
 print("All Buckets:", [b['Name'] for b in buckets['Buckets']])
-
